@@ -38,11 +38,11 @@ header {
     padding: 1em;
     text-align: center;
     color: var(--accent2-color);
-    background-color:
+    background-color: #E7C24F;
 }
 
 header>h1 {
-    color:
+    color: #396E94;
 }
 
 p {
@@ -84,7 +84,7 @@ p {
 }
 
 nav {
-    background-color: ;
+    background-color: #E7C24F;
     line-height: 3em;
     text-align: center;
     font-size: 1.2em
@@ -102,10 +102,10 @@ nav a {
 
 nav a:link,
 nav a:visited {
-    color:
+    color: #683994;
 }
 
 nav a:hover {
-    color: ;
-    background-color:
+    color: #A43312;
+    background-color: #396E94;
 }
