@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Roboto:wght@500&display=swap');
 
 :root {
     --primary-color: #396E94;
     --secondary-color: #E7C24F;
     --accent1-color: #A43312;
     --accent2-color: #683994;
-    --heading-font: "IM Fell French Canon SC";
+    --heading-font: Roboto, Lato, sans-serif;
     --paragraph-font: Lato, Helvetica, sans-serif
 }
 
@@ -13,23 +13,76 @@ header, main, footer {
     max-width: 960px;
     margin: 0 auto;
   }
+/* .heading {
+width: 50;
+height: auto;
 
-html {
+} */
+
+  /* header {
+	background-color: #fff;
+	padding: 0px 10px;
+	display: flex;
+	align-items:center;
+	justify-content:center;
+} */
+
+  /* header img {
+	width: 25;
+	height: auto;
+  } */
+
+/* html {
     background-color: var(--primary-color)
+} */
+
+/* body {
+    max-width: 960px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 1em;
+    font-size: 16px; */
 }
 
 body {
-    max-width: 900px;
-    margin: 0 auto;
-    background-color: white;
-    padding: 1em
+	background-color: blue;
+	padding: 0;
+	margin: 0;
+    font-size: 16px;
+    max-width: 960px;
 }
+
+header {
+	background-color: #fff;
+	padding: 0px 10px;
+	display: flex;
+	align-items:center;
+	justify-content:center;
+}
+
+header img {
+	width: 30px;
+	height: auto;
+}
+
+.headings {
+	display: flex;
+	flex-direction: column;
+}
+
+/* .heading h1 {
+	font-size: 2rem;
+	color: navy;
+	margin: 0;
+	
+} */
+
 
 img {
     max-width: 100%
 }
 
-h1,
+/* h1, */
 h2,
 h3,
 h4,
@@ -39,15 +92,18 @@ h6 {
     color: var(--accent1-color);
 }
 
-header {
+/* header, header img; {
     padding: 1em;
     text-align: center;
     color: var(--accent2-color);
-    background-color: #E7C24F;
-}
+    background-color: #E7C24F; 
+    
+} */
 
-header>h1 {
+header h1 {
     color: #396E94;
+    font-family: var(--heading-font);
+    padding: 0px 10px;
 }
 
 p {
@@ -92,7 +148,7 @@ nav {
     background-color: #E7C24F;
     line-height: 3em;
     text-align: center;
-    font-size: 1.2em
+    /* font-size: 1rem */
 }
 
 nav>ul {
