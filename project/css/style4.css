@@ -17,6 +17,25 @@ footer {
     color: #683994;
 }
 
+                /* unvisited link */
+                /* a:link {
+                    color: red;
+                }
+
+                /* visited link */
+                a:visited {
+                    color: #683994;
+                }
+
+                /* mouse over link */
+                a:hover {
+                    color: hotpink;
+                }
+
+                /* selected link */
+                a:active {
+                    color: blue;
+                } */
 /* *************************** */
 body {
     margin: 0;

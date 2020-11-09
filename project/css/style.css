@@ -336,7 +336,7 @@ img {
 
   
 @media screen and (max-width: 550px) {
-    .hireUs {
+    .container-grid {
       display: block;
     }
   }
