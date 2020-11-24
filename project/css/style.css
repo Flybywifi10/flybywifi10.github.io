@@ -111,9 +111,9 @@
     }
     /*                                                    Navbar End                       */
     
-    /*                                                    Showcase Start                       */
+    /*                                                    Hero Start                       */
     #hero {
-    background: url("http://placekitten.com/800/300") no-repeat center center/cover;   /*You can Change the image here*/
+    background: url("http://placekitten.com/800/300") no-repeat center center/cover;  
     height: 600px;
     }
     
@@ -127,7 +127,7 @@
     font-size: 60px;
     line-height: 1.2em;
     }
-    /*                                                    Showcase End                       */
+    /*                                                    Hero End                       */
     
     
     /*                                                    Home-info Start                       */
@@ -139,7 +139,7 @@
     #home-info .info-img {
     float: left;
     width: 50%;
-    background: url('https://placekitten.com/400/300') no-repeat; /*You can Change the image here*/
+    background: url('https://placekitten.com/400/300') no-repeat; 
     min-height: 100%;
     }
     
@@ -167,7 +167,7 @@
     #home-info-1 .info-img {
     float: right;
     width: 50%;
-    background: url('https://placekitten.com/400/300') no-repeat; /*You can Change the image here*/
+    background: url('https://placekitten.com/400/300') no-repeat; 
     min-height: 100%;
     }
     
@@ -319,7 +319,15 @@
             padding: 0px 50px;
          }
          
-         
+         .footer-distributed .footer-company-copywrite{
+            line-height: 20px;
+            color: #ffffff;
+            font-size: 13px;
+            font-weight: normal;
+            margin: 0;
+            text-align: center;
+         }
+
          .footer-distributed .footer-company-copywrite span{
             display: block;
             color: #ffffff;
