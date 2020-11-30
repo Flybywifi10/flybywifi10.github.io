@@ -113,18 +113,18 @@
     
     /*                                                    Hero Start                       */
     #hero {
-    background: url("http://placekitten.com/800/300") no-repeat center center/cover;  
-    height: 600px;
+    background: url("http://placekitten.com/g/400/200") no-repeat center center/cover;  
+    height: 200px;
     }
     
     #hero .hero-content {
     color: #fff;
     text-align: center;
-    padding-top: 300px;
+    padding-top: 50px;
     }
     
     #hero .hero-content h1 {
-    font-size: 60px;
+    font-size: 30px;
     line-height: 1.2em;
     }
     /*                                                    Hero End                       */
