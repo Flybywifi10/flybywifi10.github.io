@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
-        content="Change the description part according to your choice I have provided the area for the description here">
+        content="The Temple Inn & Suites is a hotel chain with specialized 
+        hotel accommodations near temple locations of The Church of Jesus Christ of Latter-day Saints.">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
     <title>Temple Inn & Suites | Your Home Away From Home | 215-529-9999</title>
@@ -33,7 +34,7 @@
             <div class="container">
                 <div class="hero-content">
                     <h1><span class="text-primary">Contact</span> Us</h1>
-                    <a class="btn" href="contact.html">Click Here</a>
+                    <a class="btn" href="reservations.html">Click Here</a>
                 </div>
             </div>
         </div>
@@ -42,7 +43,7 @@
     </header>
 
     <!--                                               home-info Start                       -->
-    <section id="home-info" class="bg-dark">
+    <!-- <section id="home-info" class="bg-dark">
         <div class="info-content">
             <h2><span class="text-primary">Your Home Away From Home</span></h2>
             <p>
@@ -53,19 +54,132 @@
             <a href="about.html" class="btn btn-light">Read More</a>
         </div>
         <div class="info-img"></div>
-    </section>
+    </section> -->
     <!--                                               home-info End                       -->
 
 
     <!--                                               home-info-1 Start                       -->
+ 
+    <style>
+        #home-info-1 {
+height: 900px;
+padding: 50px 50px;
+}
+
+#home-info-1 .info-img {
+float: left;
+width: 50%;
+background: url(/project/images/templeKirtland2.jpg) no-repeat;
+min-height: 600px;
+}
+
+#home-info-1 .info-content {
+float: right;
+width: 50%;
+height: 100%;
+text-align: left;
+padding: 10px 20px;
+overflow: hidden;
+/* margin-left: 10px; */
+
+}
+
+#home-info-1 .info-content p {
+padding-bottom: 0px;
+}
+  </style>
     <section id="home-info-1" class="bg-dark">
         <div class="info-img"></div>
         <div class="info-content">
-            <h2><span class="text-primary">Ready For All Your Family's Needs</span></h2>
+            <h2><span class="text-primary">Book Your Reservations Today!</span></h2>
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam sit explicabo fuga culpa inventore,
-                asperiores doloremque nesciunt error iure. Delectus obcaecati perferendis vitae quod ea! Temporibus
-                quibusdam praesentium qui ipsa?
+                <form method="post" action="//submit.form" onSubmit="return validateForm();">
+                    <div style="max-width: 400px;">
+                    </div>
+                    <div style="padding-bottom: 18px;font-size : 24px;">Hotel Reservation</div>
+                    <div style="display: flex; padding-bottom: 18px;max-width : 450px;">
+                    <div style=" margin-left: 0; margin-right: 1%; width: 49%;">First name<span style="color: red;"> *</span><br/>
+                    <input type="text" id="data_2" name="data_2" style="max-width: 100%;" class="form-control"/>
+                    </div>
+                    <div style=" margin-left: 1%; margin-right: 0; width: 49%;">Last name<span style="color: red;"> *</span><br/>
+                    <input type="text" id="data_3" name="data_3" style="max-width: 100%;" class="form-control"/>
+                    </div>
+                    </div><div style="padding-bottom: 18px;">Phone<span style="color: red;"> *</span><br/>
+                    <input type="text" id="data_4" name="data_4" style="max-width : 450px;" class="form-control"/>
+                    </div>
+                    <div style="padding-bottom: 18px;">Email<span style="color: red;"> *</span><br/>
+                    <input type="text" id="data_5" name="data_5" style="max-width : 450px;" class="form-control"/>
+                    </div>
+                    <div style="padding-bottom: 18px;">Arrival date<span style="color: red;"> *</span><br/>
+                    <input type="text" id="data_6" name="data_6" style="max-width : 250px;" class="form-control"/>
+                    </div>
+                    <script src="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.4.0/pikaday.min.js" type="text/javascript"></script>
+                    <link href="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.4.0/css/pikaday.min.css" rel="stylesheet" type="text/css" />
+                    <script type="text/javascript">new Pikaday({ field: document.getElementById('data_6') });</script>
+                    <div style="padding-bottom: 18px;">Departure date<span style="color: red;"> *</span><br/>
+                    <input type="text" id="data_7" name="data_7" style="max-width : 250px;" class="form-control"/>
+                    </div>
+                    <script src="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.4.0/pikaday.min.js" type="text/javascript"></script>
+                    <link href="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.4.0/css/pikaday.min.css" rel="stylesheet" type="text/css" />
+                    <script type="text/javascript">new Pikaday({ field: document.getElementById('data_7') });</script>
+                    <div style="padding-bottom: 18px;">Number of adults<span style="color: red;"> *</span><br/>
+                    <input type="number" id="data_8" name="data_8" style="max-width : 250px;" class="form-control"/>
+                    </div>
+                    <div style="padding-bottom: 18px;">Number of children<br/>
+                    <input type="number" id="data_9" name="data_9" style="max-width : 250px;" class="form-control"/>
+                    </div>
+                    <div style="padding-bottom: 18px;">Questions / Comments<br/>
+                    <textarea id="data_10" false name="data_10" style="max-width : 450px;" rows="6" class="form-control"></textarea>
+                    </div>
+                    <div style="padding-bottom: 18px;"><input name="skip_Submit" value="Submit" type="submit"/></div>
+                    <div>
+                    <div style="float:right"><a href="https://www.100forms.com" id="lnk100" title="form to email">form to email</a></div>
+                    <script src="https://www.100forms.com/js/FORMKEY:BM72YEG69DH9/SEND:cloudofsorts@gmail.com" type="text/javascript"></script>
+                    </div>
+                    </form>
+                    
+                    <script type="text/javascript">
+                    function validateForm() {
+                    if (isEmpty(document.getElementById('data_2').value.trim())) {
+                    alert('First name is required!');
+                    return false;
+                    }
+                    if (isEmpty(document.getElementById('data_3').value.trim())) {
+                    alert('Last name is required!');
+                    return false;
+                    }
+                    if (isEmpty(document.getElementById('data_4').value.trim())) {
+                    alert('Phone is required!');
+                    return false;
+                    }
+                    if (isEmpty(document.getElementById('data_5').value.trim())) {
+                    alert('Email is required!');
+                    return false;
+                    }
+                    if (!validateEmail(document.getElementById('data_5').value.trim())) {
+                    alert('Email must be a valid email address!');
+                    return false;
+                    }
+                    if (isEmpty(document.getElementById('data_6').value.trim())) {
+                    alert('Arrival date is required!');
+                    return false;
+                    }
+                    if (isEmpty(document.getElementById('data_7').value.trim())) {
+                    alert('Departure date is required!');
+                    return false;
+                    }
+                    if (isEmpty(document.getElementById('data_8').value.trim())) {
+                    alert('Number of adults is required!');
+                    return false;
+                    }
+                    return true;
+                    }
+                    function isEmpty(str) { return (str.length === 0 || !str.trim()); }
+                    function validateEmail(email) {
+                    var re = /^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,15}(?:\.[a-z]{2})?)$/i;
+                    return isEmpty(email) || re.test(email);
+                    }
+                    </script>
             </p>
             <a href="about.html" class="btn btn-light">Read More</a>
         </div>
@@ -74,16 +188,7 @@
 
 
     <!--                                               Feature Start                       -->
-    <section id="features">
-        <div class="box bg-primary">
-            <i class="fas fa-utensils fa-3x"></i>
-            <h3>Family Search System</h3>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque labore temporibus iste odio magni
-                veniam,
-                amet veritatis facilis dolore dolorum laborum hic saepe natus fuga aperiam unde voluptates voluptatum
-                vel. </p>
-        </div>
-    </section>
+
     <!--                                               Feature End                       -->
 
 
@@ -116,8 +221,9 @@
         <div class="footer-right">
             <p class="footer-company-about">
                 <span>About Temple Inn & Suites</span>
-                Lorem ipsum dolor sit amet consectetur bjbkbj <br>
-                adipisicing in dolor architecto dolorem. </p>
+                The Temple Inn & Suites is a hotel chain with specialized <br>
+        hotel accommodations near temple locations of The Church of Jesus <br> 
+        Christ of Latter-day Saints. </p>
             <div class="footer-icons">
                 <a href="#"><i class="fa fa-facebook"></i></a>
                 <a href="#"><i class="fa fa-twitter"></i></a>
@@ -133,7 +239,7 @@
         <div class="footer-bottom">
             <div class="footer-company-copywrite">
                 <p>&copy;2020 | Jeremy Koval | California | <a href="https://www.byui.edu/online"
-                        target="_blank">BYU-Idaho
+                        target="_blank"style="color: #8ebf42">BYU-Idaho
                         Online Learning</a></p>
             </div>
         </div>
