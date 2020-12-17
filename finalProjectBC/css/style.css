@@ -1,0 +1,271 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #d6dbdf;
+  font-family: Verdana, sans-serif;
+  margin: 0;
+  height: 100%;
+}
+
+nav {
+  overflow: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: #ebedef;
+  font-size: 2vw;
+  font-family: "Lucida Console", Courier, monospace;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+}
+
+.about_text {
+  padding-left: 2%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+
+  padding: 5px;
+  margin: 0;
+
+
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 4fr 2fr;
+  align-items: center;
+
+}
+
+ul li a {
+  padding: 1.6rem;
+
+}
+
+.logo {
+  width: 15vw;
+}
+
+ul li a:hover {
+  color: black;
+}
+
+.logo:hover {
+  background-color: #d5d8dc;
+
+}
+
+footer {
+  background: #f1f1f1;
+  padding: 90px 0;
+  background-color: rgb(192, 192, 192);
+}
+
+.footer-container {
+  max-width: 1300px;
+  margin: auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap-reverse;
+
+}
+
+.social-media {
+  margin: 20px 0;
+}
+
+.social-media a {
+  color: #001a21;
+  margin-right: 25px;
+  font-size: 22px;
+  text-decoration: none;
+  transition: .3s linear;
+}
+
+.social-media a:hover {
+  color: #fc5c65;
+}
+
+.right-col h1 {
+  font-size: 26px;
+}
+
+.bg-img {
+  background-image: url("/finalProjectBC/images/homeBgImg.jpg");
+  height: 60vmin;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.bg-img2 {
+  background-image: url("/finalProjectBC/images/trainingBgImg.jpg");
+  height: 60vmin;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.bg-img3 {
+  background-image: url("/finalProjectBC/images/contactBgImg.jpg");
+  height: 60vmin;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.row {
+  display: flex;
+}
+
+
+.column {
+  flex: 50%;
+  padding: 10px;
+  height: 50%;
+}
+
+.currencyImage {
+  width: 40vw;
+  height: 35vw;
+}
+
+h1,
+h2 {
+  font-family: Garamond;
+  font-family: "Lucida Console", Courier, monospace;
+  color: #212f3d;
+}
+
+p {
+  font-family: Courier, arial, helvetica;
+  font-size: 1.5vw;
+}
+
+.form_content {
+  padding-left: 10%;
+  padding-right: 10%;
+
+}
+
+legend {
+  padding: 14px 22px;
+}
+
+input[type=text],
+select,
+textarea {
+  width: 100%;
+  padding: 14px 22px;
+  margin: 10px 0;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+input[type=text]:focus {
+  border: 4px solid #555;
+}
+
+input[type=tel],
+select {
+  width: 100%;
+  padding: 14px 22px;
+  margin: 10px 0;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+
+}
+
+input[type=tel]:focus {
+  border: 4px solid #555;
+}
+
+
+input[type=E-mail],
+select {
+  width: 100%;
+  padding: 14px 22px;
+  margin: 10px 0;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+
+}
+
+input[type=E-mail]:focus {
+  border: 4px solid #555;
+}
+
+textarea:focus {
+  border: 4px solid #555;
+}
+
+
+label {
+  padding: 12px 12px 12px 0;
+}
+
+input[type=submit] {
+
+  background-color: #3b444b;
+  color: white;
+  padding: 14px 20px;
+  margin: 10px 0;
+  border: none;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #555555;
+  color: white;
+}
+
+input[type=reset] {
+
+  background-color: #3b444b;
+  color: white;
+  padding: 14px 20px;
+  margin: 10px 0;
+  border: none;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+input[type=reset]:hover {
+
+  background-color: #555555;
+  color: white;
+}
+
+
+@media screen and (max-width:960px) {
+  .footer-container {
+    max-width: 600px;
+  }
+
+  .right-col {
+    width: 100%;
+    text-align: center;
+  }
+
+  .left-col {
+    width: 100%;
+    text-align: center;
+
+  }
+}
